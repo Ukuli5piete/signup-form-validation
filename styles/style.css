@@ -1,0 +1,74 @@
+body,html{
+    margin: 0px;
+    padding: 0px;
+
+}
+*{
+    box-sizing: border-box;
+}
+
+main{
+    margin-top: 90px;
+    padding-top: 20px;
+   
+    background-color: whitesmoke;
+    width: 500px;
+    height: 580px;
+    margin-left: 450px;
+    padding-left: 40px;
+} 
+.signup-form{
+    /* text-align: center; */
+   /* margin: auto; */
+   background-color: white;
+   border-radius: 10px;
+   width: 420px;
+    height: 490px;
+    /* padding-top: 20px; */
+    margin-top: 30px;
+    padding: 5px 20px 20px 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.7);
+   
+}
+.signup-form .identification h1{
+    padding-left: 100px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.contents {
+    padding-left: 30px;
+}
+.contents #name-credentials{
+    margin-bottom: 30px;
+}
+.contents .labels {
+  padding-top: 20px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Josefin Sans', sans-serif; */
+
+}
+.contents .inputs input{
+    width: 300px;
+    height: 50px;
+    margin-top: 0px;
+    font-size: 17px;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.contents .button{
+    padding-top: 30px;
+    
+}
+.contents .button button{
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
